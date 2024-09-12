@@ -7,7 +7,7 @@ def apply_all_func(int_list, *functions):
         return "Первый аргумент должен быть списком"
 
     if not are_all_elements_numbers(int_list):
-        return"Некорректные данные, передайте список из чисел"
+        return "Некорректные данные, передайте список из чисел"
 
     for function in functions:
         result = function(int_list)
